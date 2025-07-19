@@ -38,40 +38,37 @@ A comprehensive collection of Java 8 Stream API questions with practical code so
 28. [Find the sum and average of all elements in an integer array](#28-find-the-sum-and-average-of-all-elements-in-an-integer-array)
 29. [Write a Java 8 program to find the sum and average of all elements in an integer array](#29-write-a-java-8-program-to-find-the-sum-and-average-of-all-elements-in-an-integer-array)
 30. [Find the common elements between two arrays](#30-find-the-common-elements-between-two-arrays)
-
-## 📋 Questions List
-
-31. [Write a Java 8 program to find the common elements between two arrays using streams](#1-write-a-java-8-program-to-find-the-common-elements-between-two-arrays-using-streams)
-32. [Reverse each word of a string using Java 8 streams](#2-reverse-each-word-of-a-string-using-java-8-streams)
-33. [Write a Java 8 program to reverse each word of a given string using the stream API and lambda expressions](#3-write-a-java-8-program-to-reverse-each-word-of-a-given-string-using-the-stream-api-and-lambda-expressions)
-34. [Find the sum of the first 10 natural numbers](#4-find-the-sum-of-the-first-10-natural-numbers)
-35. [Write a Java 8 program to find the sum of the first 10 natural numbers using streams](#5-write-a-java-8-program-to-find-the-sum-of-the-first-10-natural-numbers-using-streams)
-36. [Reverse an integer array](#6-reverse-an-integer-array)
-37. [Write a Java 8 program to reverse an integer array](#7-write-a-java-8-program-to-reverse-an-integer-array)
-38. [Print the first 10 even numbers](#8-print-the-first-10-even-numbers)
-39. [Write a Java 8 program to print the first 10 even numbers](#9-write-a-java-8-program-to-print-the-first-10-even-numbers)
-40. [Find the most repeated element in an array](#10-find-the-most-repeated-element-in-an-array)
-41. [Write a Java 8 program to find the most repeated element in an array](#11-write-a-java-8-program-to-find-the-most-repeated-element-in-an-array)
-42. [Check if a string is a palindrome using Java 8 streams](#12-check-if-a-string-is-a-palindrome-using-java-8-streams)
-43. [Write a Java 8 program to check if a given string is a palindrome using the stream API and lambda expressions](#13-write-a-java-8-program-to-check-if-a-given-string-is-a-palindrome-using-the-stream-api-and-lambda-expressions)
-44. [Find strings in a list that start with a number](#14-find-strings-in-a-list-that-start-with-a-number)
-45. [Given a list of strings, write a Java 8 program to find the strings that start with a number](#15-given-a-list-of-strings-write-a-java-8-program-to-find-the-strings-that-start-with-a-number)
-46. [Extract duplicate elements from an array](#16-extract-duplicate-elements-from-an-array)
-47. [Write a Java 8 program to extract duplicate elements from an array](#17-write-a-java-8-program-to-extract-duplicate-elements-from-an-array)
-48. [Print duplicate characters in a string](#18-print-duplicate-characters-in-a-string)
-49. [Write a Java 8 program to print the duplicate characters in a string](#19-write-a-java-8-program-to-print-the-duplicate-characters-in-a-string)
-50. [Find the first repeated character in a string](#20-find-the-first-repeated-character-in-a-string)
-51. [Write a Java 8 program to find the first repeated character in a string](#21-write-a-java-8-program-to-find-the-first-repeated-character-in-a-string)
-52. [Find the first non-repeated character in a string](#22-find-the-first-non-repeated-character-in-a-string)
-53. [Write a Java 8 program to find the first non-repeated character in a string](#23-write-a-java-8-program-to-find-the-first-non-repeated-character-in-a-string)
-54. [Generate the Fibonacci series](#24-generate-the-fibonacci-series)
-55. [Write a Java 8 program to generate the Fibonacci series](#25-write-a-java-8-program-to-generate-the-fibonacci-series)
-56. [Print the first 10 odd numbers](#26-print-the-first-10-odd-numbers)
-57. [Write a Java 8 program to print the first 10 odd numbers](#27-write-a-java-8-program-to-print-the-first-10-odd-numbers)
-58. [Get the last element of an array](#28-get-the-last-element-of-an-array)
-59. [Write a Java 8 program to get the last element of an array](#29-write-a-java-8-program-to-get-the-last-element-of-an-array)
-60. [Calculate the age of a person in years](#30-calculate-the-age-of-a-person-in-years)
-61. [Write a Java 8 program to calculate the age of a person in years given their birthday](#31-write-a-java-8-program-to-calculate-the-age-of-a-person-in-years-given-their-birthday)
+31. [Write a Java 8 program to find the common elements between two arrays using streams](#31-write-a-java-8-program-to-find-the-common-elements-between-two-arrays-using-streams)
+32. [Reverse each word of a string using Java 8 streams](#32-reverse-each-word-of-a-string-using-java-8-streams)
+33. [Write a Java 8 program to reverse each word of a given string using the stream API and lambda expressions](#33-write-a-java-8-program-to-reverse-each-word-of-a-given-string-using-the-stream-api-and-lambda-expressions)
+34. [Find the sum of the first 10 natural numbers](#34-find-the-sum-of-the-first-10-natural-numbers)
+35. [Write a Java 8 program to find the sum of the first 10 natural numbers using streams](#35-write-a-java-8-program-to-find-the-sum-of-the-first-10-natural-numbers-using-streams)
+36. [Reverse an integer array](#36-reverse-an-integer-array)
+37. [Write a Java 8 program to reverse an integer array](#37-write-a-java-8-program-to-reverse-an-integer-array)
+38. [Print the first 10 even numbers](#38-print-the-first-10-even-numbers)
+39. [Write a Java 8 program to print the first 10 even numbers](#39-write-a-java-8-program-to-print-the-first-10-even-numbers)
+40. [Find the most repeated element in an array](#40-find-the-most-repeated-element-in-an-array)
+41. [Write a Java 8 program to find the most repeated element in an array](#41-write-a-java-8-program-to-find-the-most-repeated-element-in-an-array)
+42. [Check if a string is a palindrome using Java 8 streams](#42-check-if-a-string-is-a-palindrome-using-java-8-streams)
+43. [Write a Java 8 program to check if a given string is a palindrome using the stream API and lambda expressions](#43-write-a-java-8-program-to-check-if-a-given-string-is-a-palindrome-using-the-stream-api-and-lambda-expressions)
+44. [Find strings in a list that start with a number](#44-find-strings-in-a-list-that-start-with-a-number)
+45. [Given a list of strings, write a Java 8 program to find the strings that start with a number](#45-given-a-list-of-strings-write-a-java-8-program-to-find-the-strings-that-start-with-a-number)
+46. [Extract duplicate elements from an array](#46-extract-duplicate-elements-from-an-array)
+47. [Write a Java 8 program to extract duplicate elements from an array](#47-write-a-java-8-program-to-extract-duplicate-elements-from-an-array)
+48. [Print duplicate characters in a string](#48-print-duplicate-characters-in-a-string)
+49. [Write a Java 8 program to print the duplicate characters in a string](#49-write-a-java-8-program-to-print-the-duplicate-characters-in-a-string)
+50. [Find the first repeated character in a string](#50-find-the-first-repeated-character-in-a-string)
+51. [Write a Java 8 program to find the first repeated character in a string](#51-write-a-java-8-program-to-find-the-first-repeated-character-in-a-string)
+52. [Find the first non-repeated character in a string](#52-find-the-first-non-repeated-character-in-a-string)
+53. [Write a Java 8 program to find the first non-repeated character in a string](#53-write-a-java-8-program-to-find-the-first-non-repeated-character-in-a-string)
+54. [Generate the Fibonacci series](#54-generate-the-fibonacci-series)
+55. [Write a Java 8 program to generate the Fibonacci series](#55-write-a-java-8-program-to-generate-the-fibonacci-series)
+56. [Print the first 10 odd numbers](#56-print-the-first-10-odd-numbers)
+57. [Write a Java 8 program to print the first 10 odd numbers](#57-write-a-java-8-program-to-print-the-first-10-odd-numbers)
+58. [Get the last element of an array](#58-get-the-last-element-of-an-array)
+59. [Write a Java 8 program to get the last element of an array](#59-write-a-java-8-program-to-get-the-last-element-of-an-array)
+60. [Calculate the age of a person in years](#60-calculate-the-age-of-a-person-in-years)
+61. [Write a Java 8 program to calculate the age of a person in years given their birthday](#61-write-a-java-8-program-to-calculate-the-age-of-a-person-in-years-given-their-birthday)
 
 ---
 
@@ -590,7 +587,6 @@ System.out.println(commonElements);  // [2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 [⬆️ Back to Questions](#-all-questions)
 
----
 ---
 
 ## 💻 Answers with Code Solutions
@@ -1264,4 +1260,3 @@ System.out.println("Person born on " + birthDate2.format(formatter) + " is " + a
 [⬆️ Back to Questions](#-questions-list)
 
 ---
-
